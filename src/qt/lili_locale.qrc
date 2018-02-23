@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/lili_bg.qm</file>
+        <file alias="de">locale/lili_de.qm</file>
+        <file alias="en">locale/lili_en.qm</file>
+        <file alias="es">locale/lili_es.qm</file>
+        <file alias="fi">locale/lili_fi.qm</file>
+        <file alias="fr">locale/lili_fr.qm</file>
+        <file alias="it">locale/lili_it.qm</file>
+        <file alias="ja">locale/lili_ja.qm</file>
+        <file alias="pl">locale/lili_pl.qm</file>
+        <file alias="pt">locale/lili_pt.qm</file>
+        <file alias="ru">locale/lili_ru.qm</file>
+        <file alias="sk">locale/lili_sk.qm</file>
+        <file alias="sv">locale/lili_sv.qm</file>
+        <file alias="vi">locale/lili_vi.qm</file>
+        <file alias="zh_CN">locale/lili_zh_CN.qm</file>
+        <file alias="zh_TW">locale/lili_zh_TW.qm</file>
+    </qresource>
+</RCC>

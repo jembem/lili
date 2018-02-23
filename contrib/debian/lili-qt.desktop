@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=LILI
+Comment=LILI P2P Cryptocurrency
+Comment[fr]=LILI, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=LILI, eşten eşe kriptografik sanal para birimi
+Exec=lili-qt %u
+Terminal=false
+Type=Application
+Icon=lili128
+MimeType=x-scheme-handler/lili;
+Categories=Office;Finance;

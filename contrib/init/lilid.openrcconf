@@ -1,0 +1,26 @@
+# /etc/conf.d/lilid: config file for /etc/init.d/lilid
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/lili/lili.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/lilid"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/lilid.pid"
+
+# Where to write lilid data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/lilid"
+
+# User and group to own lilid process
+#BITCOIND_USER="lili"
+#BITCOIND_GROUP="lili"
+
+# Path to lilid executable
+#BITCOIND_BIN="/usr/bin/lilid"
+
+# Nice value to run lilid under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

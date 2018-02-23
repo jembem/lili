@@ -1,0 +1,26 @@
+[Unit]
+Description=LILI's distributed currency daemon
+After=network.target
+
+[Service]
+User=lili
+Group=lili
+
+Type=forking
+PIDFile=/var/lib/lilid/lilid.pid
+
+ExecStart=/usr/bin/lilid -daemon -pid=/var/lib/lilid/lilid.pid \
+          -conf=/etc/lili/lili.conf -datadir=/var/lib/lilid
+
+ExecStop=-/usr/bin/lili-cli -conf=/etc/lili/lili.conf \
+         -datadir=/var/lib/lilid stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

@@ -15,7 +15,7 @@ Block 373800 - 456300 = 50 Coins per block / 50 % POW Miners / 40 % Masternodes 
 Block 456300 - 513300 = 50 Coins per block / 35 % POS Miners / 65 % Masternodes <br>
 Block 513300 - 573100 = 25 Coins per block / 35 % POS Miners / 65 % Masternodes <br>
 Block 573100 - 623100 = 10 Coins per block / 35 % POS Miners / 65 % Masternodes <br>
->623100 = 5 Coins per block / 35 % POS Miners / 65 % Masternodes <br><br>
+Block >623100 = 5 Coins per block / 35 % POS Miners / 65 % Masternodes <br><br>
 
 ◆  Instant send: ~5 seconds<br>
 ◆  Difficulty retargeting: Dark Gravity Wave<br>

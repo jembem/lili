@@ -22,7 +22,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/LILICRYPTO/LILI.git"
+- "url": "https://github.com/jembem/lili.git"
   "dir": "lili"
 files: []
 script: |

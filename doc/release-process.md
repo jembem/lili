@@ -3,7 +3,7 @@ Release Process
 
 Before every release candidate:
 
-* Update translations (ping Fuzzbawls on Slack) see [translation_process.md](https://github.com/LILICRYPTO/LILI/blob/master/doc/translation_process.md#synchronising-translations).
+* Update translations (ping Fuzzbawls on Slack) see [translation_process.md](https://github.com/jembem/lili/blob/master/doc/translation_process.md#synchronising-translations).
 
 Before every minor and major release:
 
@@ -24,10 +24,10 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 Check out the source code in the following directory hierarchy.
 
     cd /path/to/your/toplevel/build
-    git clone https://github.com/LILICRYPTO/LILI.SIGS.git
-    git clone https://github.com/LILICRYPTO/LILI-DETACHED.SIGS.git
+    git clone https://github.com/jembem/lili.SIGS.git
+    git clone https://github.com/jembem/lili-DETACHED.SIGS.git
     git clone https://github.com/devrandom/gitian-builder.git
-    git clone https://github.com/LILICRYPTO/LILI.git
+    git clone https://github.com/jembem/lili.git
 
 ### LILI maintainers/release engineers, suggestion for writing release notes
 

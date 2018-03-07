@@ -7,7 +7,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/LILICRYPTO/LILI.SIGS.git"
+- "url": "https://github.com/jembem/lili.SIGS.git"
   "dir": "signature"
 files:
 - "lili-osx-unsigned.tar.gz"

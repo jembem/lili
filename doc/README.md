@@ -41,7 +41,7 @@ The following are developer notes on how to build LILI on your native platform. 
 
 Development
 ---------------------
-The LILI repo's [root README](https://github.com/LILICRYPTO/LILI/blob/master/README.md) contains relevant information on the development process and automated testing.
+The LILI repo's [root README](https://github.com/jembem/lili/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
